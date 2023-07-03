@@ -15,3 +15,19 @@
 <li>Set target as a site or IP address</li>
 <li>Set port as a port number</li>
 <ul>
+<li>Common ports: 80 (http), 443 (https)</li>
+</ul>
+
+<h2>Build and run as a service:</h2>
+<ul>
+<li>Use <a href='https://pyinstaller.org/en/stable/usage.html'>pyinstaller</a> and run "pyinstaller --onefile specific_port.py" in the terminal</li>
+<ul>
+<li>Use a third party tool such as <a href='https://nssm.cc/'>NSSM</a> to install as a service</li>
+<li>With NSSM installed run "nssm install &ltservice name&gt</li>
+<ul>
+<li>When GUI launches - Path: navigate to the pyinstaller created exe file.</li>
+<li>Save and run</li>
+<li>Navigate to Window's services and start the service</li>
+</ul>
+</ul>
+</ul>
