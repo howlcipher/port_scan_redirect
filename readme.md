@@ -17,7 +17,7 @@
 <ul>
 <li>Common ports: 80 (http), 443 (https)</li>
 </ul>
-
+</ul>
 <h2>Build and run as a service:</h2>
 <ul>
 <li>Use <a href='https://pyinstaller.org/en/stable/usage.html'>pyinstaller</a> and run "pyinstaller --onefile specific_port.py" in the terminal</li>
